@@ -2,7 +2,8 @@
 
 %h1.mt-2 イベント作成
 
-= simple_form_for @event, class: 'form-horizontal' do |f|
+= simple_form_for @event, class: 'form-horizontal', remote: true do |f|
+  #errors
   = f.input :name
   = f.input :place
   = f.input :start_at, start_year: now.year, end_year: now.year + 1
