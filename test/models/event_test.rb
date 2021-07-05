@@ -10,5 +10,8 @@ class EventTest < ActiveSupport::TestCase
     assert_equal(true, event.created_by?(owner_user))
     assert_equal(false, event.created_by?(other_user))
     assert_equal(false, event.created_by?(nil))
+
+    owner_user.verify
+    other_user.verify
   end
 end
