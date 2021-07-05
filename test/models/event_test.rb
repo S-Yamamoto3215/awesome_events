@@ -14,4 +14,20 @@ class EventTest < ActiveSupport::TestCase
     owner_user.verify
     other_user.verify
   end
+
+  test 'validate test start_at_before_end_at OK' do
+    start_at = rand(1..30).days.from_now
+    end_at = start_at + rand(1..30).hours
+    event = FactoryBot.build(:event, start_at: start_at, end_at: end_at)
+    event.valid?
+    assert_empty(event.errors[:start_at])
+  end
+
+  test 'validate test start_at_before_end_at NG' do
+    start_at = rand(1..30).days.from_now
+    end_at = start_at - rand(1..30).hours
+    event = FactoryBot.build(:event, start_at: start_at, end_at: end_at)
+    event.valid?
+    assert_not_empty(event.errors[:start_at])
+  end
 end
