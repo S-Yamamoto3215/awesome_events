@@ -9,4 +9,13 @@
   = f.input :start_at, start_year: now.year, end_year: now.year + 1
   = f.input :end_at, start_year: now.year, end_year: now.year + 1
   = f.input :content, input_html: { rows: 10 }
+  - if @event.image.attached?
+    = image_tag @event.image, class: 'img-thumbnail d-block mb-3',
+                              width: 200, height: 200
+  = f.input :image
+  - if @event.image.attached?
+    .checkbox
+      %label
+        = f.check_box :remove_image
+        画像を削除する
   = f.button :submit, class: 'btn btn-primary'
