@@ -4,7 +4,8 @@ class Event < ApplicationRecord
   belongs_to :owner, class_name: 'User'
 
   validates :image, content_type: %i[png jpg jpeg],
-                    size: { less_than_or_equal_to: 10.megabytes }
+                    size: { less_than_or_equal_to: 10.megabytes },
+                    dimension: { width: { max: 2000 }, height: { max: 2000 } }
   validates :name, presence: true, length: { maximum: 50 }
   validates :place, presence: true, length: { maximum: 100 }
   validates :content, presence: true, length: { maximum: 2000 }
