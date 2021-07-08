@@ -2,10 +2,12 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.1'
+gem 'active_storage_validations'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'dotenv-rails'
 gem 'hamlit-rails'
 gem 'html2haml'
+gem 'image_processing'
 gem 'jbuilder', '~> 2.7'
 gem 'omniauth'
 gem 'omniauth-github'
