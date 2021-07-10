@@ -12,3 +12,4 @@ import "bootstrap/scss/bootstrap.scss"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+require('get_form_turbolinks')
