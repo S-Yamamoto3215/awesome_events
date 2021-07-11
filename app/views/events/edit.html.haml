@@ -6,8 +6,8 @@
   #errors
   = f.input :name
   = f.input :place
-  = f.input :start_at, start_year: now.year, end_year: now.year + 1
-  = f.input :end_at, start_year: now.year, end_year: now.year + 1
+  = f.input :start_at, start_year: now.year, end_year: now.year + 1, as: :datetime, html5: true
+  = f.input :end_at, start_year: now.year, end_year: now.year + 1, as: :datetime, html5: true
   = f.input :content, input_html: { rows: 10 }
   - if @event.image.attached? && @event.image.blob&.persisted?
     = image_tag @event.image.variant(resize_to_fit: [200, 200]),
