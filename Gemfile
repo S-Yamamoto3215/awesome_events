@@ -31,6 +31,9 @@ end
 group :development do
   gem 'listen'
   gem 'rack-mini-profiler'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
   gem 'spring'
   gem 'web-console'
 end
