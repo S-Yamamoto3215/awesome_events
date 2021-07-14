@@ -8,11 +8,11 @@
 
 # Offense count: 3
 # Cop supports --auto-correct.
-Layout/EmptyLineAfterMagicComment:
-  Exclude:
-    - 'app/controllers/status_controller.rb'
-    - 'config/initializers/simple_form.rb'
-    - 'test/system/events_test.rb'
+#Layout/EmptyLineAfterMagicComment:
+#  Exclude:
+#    - 'app/controllers/status_controller.rb'
+#    - 'config/initializers/simple_form.rb'
+#    - 'test/system/events_test.rb'
 
 # Offense count: 7
 # Cop supports --auto-correct.
