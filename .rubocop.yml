@@ -13,3 +13,11 @@ Style/EmptyMethod:
   Enabled: false
 Style/GlobalStdStream:
   Enabled: false
+Metrics/AbcSize:
+  Max: 23
+Metrics/BlockLength:
+  Max: 298
+Metrics/MethodLength:
+  Max: 25
+Layout/LineLength:
+  Max: 258
