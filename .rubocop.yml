@@ -21,6 +21,12 @@ Rails/FilePath:
   EnforcedStyle: slashes
 Rails/HttpStatus:
   EnforcedStyle: numeric
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
 Metrics/AbcSize:
   Max: 23
 Metrics/BlockLength:

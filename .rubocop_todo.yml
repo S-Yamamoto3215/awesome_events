@@ -142,8 +142,6 @@
 
 # Offense count: 21
 # Configuration parameters: AllowedConstants.
-Style/Documentation:
-  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -157,8 +155,6 @@ Style/Documentation:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: always, always_true, never
-Style/FrozenStringLiteralComment:
-  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -191,8 +187,6 @@ Style/RedundantFetchBlock:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, ConsistentQuotesInMultiline.
 # SupportedStyles: single_quotes, double_quotes
-Style/StringLiterals:
-  Enabled: false
 
 # Offense count: 4
 # Cop supports --auto-correct.
