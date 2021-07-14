@@ -119,10 +119,10 @@
 
 # Offense count: 3
 # Cop supports --auto-correct.
-Rails/PluralizationGrammar:
-  Exclude:
-    - 'test/system/events_test.rb'
-    - 'test/system/welcomes_test.rb'
+#Rails/PluralizationGrammar:
+#  Exclude:
+#    - 'test/system/events_test.rb'
+#    - 'test/system/welcomes_test.rb'
 
 # Offense count: 1
 # Configuration parameters: AllowedChars.

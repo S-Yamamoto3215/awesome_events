@@ -26,7 +26,7 @@ class EventsTest < ApplicationSystemTestCase
     fill_in '場所', with: '宮崎'
 
     start_at = Time.current
-    end_at = start_at + 3.hour
+    end_at = start_at + 3.hours
     fill_in '開始時間', with: start_at
     fill_in '終了時間', with: end_at
 
