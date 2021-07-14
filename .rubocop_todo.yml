@@ -16,9 +16,9 @@
 
 # Offense count: 7
 # Cop supports --auto-correct.
-Layout/EmptyLines:
-  Exclude:
-    - 'config/initializers/simple_form_bootstrap.rb'
+#Layout/EmptyLines:
+#  Exclude:
+#    - 'config/initializers/simple_form_bootstrap.rb'
 
 # Offense count: 8
 # Cop supports --auto-correct.
