@@ -13,6 +13,8 @@ Style/EmptyMethod:
   Enabled: false
 Style/GlobalStdStream:
   Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
 Naming/MethodParameterName:
   Enabled: false
 Rails/FilePath:
