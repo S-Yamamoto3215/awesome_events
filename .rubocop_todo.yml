@@ -26,10 +26,10 @@
 # SupportedHashRocketStyles: key, separator, table
 # SupportedColonStyles: key, separator, table
 # SupportedLastArgumentHashStyles: always_inspect, always_ignore, ignore_implicit, ignore_explicit
-Layout/HashAlignment:
-  Exclude:
-    - 'config/initializers/simple_form.rb'
-    - 'config/initializers/simple_form_bootstrap.rb'
+#Layout/HashAlignment:
+#  Exclude:
+#    - 'config/initializers/simple_form.rb'
+#    - 'config/initializers/simple_form_bootstrap.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
