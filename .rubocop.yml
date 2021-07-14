@@ -15,6 +15,8 @@ Style/GlobalStdStream:
   Enabled: false
 Naming/MethodParameterName:
   Enabled: false
+Rails/FilePath:
+  EnforcedStyle: slashes
 Metrics/AbcSize:
   Max: 23
 Metrics/BlockLength:
