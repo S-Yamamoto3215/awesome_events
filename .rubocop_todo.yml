@@ -73,9 +73,9 @@
 # Offense count: 2
 # Cop supports --auto-correct.
 # Configuration parameters: AllowUnusedKeywordArguments, IgnoreEmptyMethods, IgnoreNotImplementedMethods.
-Lint/UnusedMethodArgument:
-  Exclude:
-    - 'app/controllers/application_controller.rb'
+#Lint/UnusedMethodArgument:
+#  Exclude:
+#    - 'app/controllers/application_controller.rb'
 
 # Offense count: 2
 # Configuration parameters: IgnoredMethods, CountRepeatedAttributes.

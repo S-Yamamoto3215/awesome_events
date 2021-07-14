@@ -5,11 +5,11 @@ class ApplicationController < ActionController::Base
   rescue_from Exception, with: :error500
   rescue_from ActiveRecord::RecordNotFound, ActionController::RoutingError, with: :error404
 
-  def error404(e)
+  def error404(_e)
     render 'error404', status: 404, format: [:html]
   end
 
-  def error500(e)
+  def error500(_e)
     render 'error500', status: 500, format: [:html]
   end
 
