@@ -35,9 +35,9 @@
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: symmetrical, new_line, same_line
-Layout/MultilineHashBraceLayout:
-  Exclude:
-    - 'test/helpers/sign_in_helper.rb'
+#Layout/MultilineHashBraceLayout:
+#  Exclude:
+#    - 'test/helpers/sign_in_helper.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
