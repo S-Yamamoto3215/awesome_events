@@ -7,7 +7,8 @@ module SignInHelper
       info: {
         nickname: user.name,
         image: user.image_url
-      })
+      }
+    )
     if respond_to?(:visit)
       visit root_url
       click_on 'GitHubでログイン'
