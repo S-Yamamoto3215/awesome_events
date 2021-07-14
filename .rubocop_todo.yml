@@ -52,10 +52,10 @@ Layout/MultilineMethodCallBraceLayout:
 # Configuration parameters: EnforcedStyle, EnforcedStyleForEmptyBrackets.
 # SupportedStyles: space, no_space, compact
 # SupportedStylesForEmptyBrackets: space, no_space
-Layout/SpaceInsideArrayLiteralBrackets:
-  Exclude:
-    - 'config/environments/production.rb'
-    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
+#Layout/SpaceInsideArrayLiteralBrackets:
+#  Exclude:
+#    - 'config/environments/production.rb'
+#    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.
@@ -103,9 +103,9 @@ Naming/MethodParameterName:
 # Offense count: 1
 # Configuration parameters: Include.
 # Include: db/migrate/*.rb
-Rails/CreateTableWithTimestamps:
-  Exclude:
-    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
+#Rails/CreateTableWithTimestamps:
+#  Exclude:
+#    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
 
 # Offense count: 1
 # Configuration parameters: EnforcedStyle.
@@ -139,9 +139,9 @@ Rails/PluralizationGrammar:
 # Offense count: 1
 # Configuration parameters: AllowedChars.
 # AllowedChars: ©
-Style/AsciiComments:
-  Exclude:
-    - 'test/models/event_test.rb'
+#Style/AsciiComments:
+#  Exclude:
+#    - 'test/models/event_test.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.
@@ -161,9 +161,9 @@ Style/Documentation:
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: compact, expanded
-Style/EmptyMethod:
-  Exclude:
-    - 'app/controllers/retirements_controller.rb'
+#Style/EmptyMethod:
+#  Exclude:
+#    - 'app/controllers/retirements_controller.rb'
 
 # Offense count: 61
 # Cop supports --auto-correct.
@@ -174,9 +174,9 @@ Style/FrozenStringLiteralComment:
 
 # Offense count: 1
 # Cop supports --auto-correct.
-Style/GlobalStdStream:
-  Exclude:
-    - 'config/environments/production.rb'
+#Style/GlobalStdStream:
+#  Exclude:
+#    - 'config/environments/production.rb'
 
 # Offense count: 1
 # Configuration parameters: MinBodyLength.
