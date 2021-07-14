@@ -66,9 +66,9 @@
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: IgnoreEmptyBlocks, AllowUnusedKeywordArguments.
-Lint/UnusedBlockArgument:
-  Exclude:
-    - 'config/initializers/simple_form_bootstrap.rb'
+#Lint/UnusedBlockArgument:
+#  Exclude:
+#    - 'config/initializers/simple_form_bootstrap.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.
