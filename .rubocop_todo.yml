@@ -192,11 +192,11 @@
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, MinSize.
 # SupportedStyles: percent, brackets
-Style/SymbolArray:
-  Exclude:
-    - 'Gemfile'
-    - 'config/initializers/filter_parameter_logging.rb'
-    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
+#Style/SymbolArray:
+#  Exclude:
+#    - 'Gemfile'
+#    - 'config/initializers/filter_parameter_logging.rb'
+#    - 'db/migrate/20210707134835_create_active_storage_tables.active_storage.rb'
 
 # Offense count: 26
 # Cop supports --auto-correct.
