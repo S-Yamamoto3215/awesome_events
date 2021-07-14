@@ -179,9 +179,9 @@
 # Offense count: 2
 # Cop supports --auto-correct.
 # Configuration parameters: SafeForConstants.
-Style/RedundantFetchBlock:
-  Exclude:
-    - 'config/puma.rb'
+#Style/RedundantFetchBlock:
+#  Exclude:
+#    - 'config/puma.rb'
 
 # Offense count: 35
 # Cop supports --auto-correct.
