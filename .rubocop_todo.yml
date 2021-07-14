@@ -164,9 +164,9 @@
 
 # Offense count: 1
 # Configuration parameters: MinBodyLength.
-Style/GuardClause:
-  Exclude:
-    - 'app/controllers/retirements_controller.rb'
+#Style/GuardClause:
+#  Exclude:
+#    - 'app/controllers/retirements_controller.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
