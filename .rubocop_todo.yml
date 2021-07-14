@@ -106,9 +106,9 @@
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: numeric, symbolic
-Rails/HttpStatus:
-  Exclude:
-    - 'app/controllers/application_controller.rb'
+#Rails/HttpStatus:
+#  Exclude:
+#    - 'app/controllers/application_controller.rb'
 
 # Offense count: 1
 # Configuration parameters: Include.

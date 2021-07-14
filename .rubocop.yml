@@ -17,6 +17,8 @@ Naming/MethodParameterName:
   Enabled: false
 Rails/FilePath:
   EnforcedStyle: slashes
+Rails/HttpStatus:
+  EnforcedStyle: numeric
 Metrics/AbcSize:
   Max: 23
 Metrics/BlockLength:
