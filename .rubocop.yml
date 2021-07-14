@@ -13,6 +13,8 @@ Style/EmptyMethod:
   Enabled: false
 Style/GlobalStdStream:
   Enabled: false
+Naming/MethodParameterName:
+  Enabled: false
 Metrics/AbcSize:
   Max: 23
 Metrics/BlockLength:
