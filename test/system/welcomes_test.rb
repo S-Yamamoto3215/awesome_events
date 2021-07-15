@@ -12,8 +12,8 @@ class WelcomesTest < ApplicationSystemTestCase
 
     travel_to Time.zone.now + 2.days do
       visit root_url
-      assert_selector 'h5', text: future_event.name
-      assert_no_selector 'h5', text: past_event.name
+      assert_selector 'h5.list-group-item-heading', text: future_event.name
+      assert_no_selector 'h5.list-group-item-heading', text: past_event.name
     end
   end
 end
