@@ -31,7 +31,7 @@ end
 
 group :development do
   gem 'listen'
-  gem 'rack-mini-profiler'
+  gem 'rack-mini-profiler', require: false
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
